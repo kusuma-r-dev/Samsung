@@ -1,7 +1,7 @@
 import sys
 from partition import partition_list
 
-numbers = [float(num) for num in sys.argv[1:]]
+numbers = [45,12,35,91,20]
 
 print("Numbers before partition:\n", numbers)
 
