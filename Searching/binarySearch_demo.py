@@ -1,5 +1,5 @@
 import sys
-from binarySearch import binarySearch
+from binarySearch import binary_search
 
 ''' Input by interrupts
 input_size = int(input("Enter size of the list: "))
@@ -13,7 +13,7 @@ for i in range(input_size):
 print("Elements given by user are:\n", elements)
 
 Input from args'''
-input_numbers: list[float] = []
+input_numbers: list[float] = [4, 8, 7, 18, 25]
 
 for i in range(1, len(sys.argv)):
     input_numbers.append(float(sys.argv[i]))
